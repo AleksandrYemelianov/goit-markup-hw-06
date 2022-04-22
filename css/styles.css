@@ -803,6 +803,18 @@ img {
   fill: var(--accent-color);
 }
 
+.form-contacts {
+ display: flex;
+ flex-direction: column;
+}
+
+
+/* Форма в модалке */
+
+.modal-form {
+  padding: 40px;
+}
+
 /* Рассылка ФУТЕР */
 
 .sub-form {
@@ -820,29 +832,35 @@ img {
 }
 
 .sub-send {
-    margin-bottom: 20px;
-    
-    color: var(--primary-white-color);
-    
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+  margin-bottom: 20px;
+  
+  color: var(--primary-white-color);
+  
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .sub-input {
-padding: 15px;
-border: 1px solid var(--form-footer-color);
-border-radius: 4px;
-background-color: transparent;
+  padding: 15px;
+
+  border: 1px solid var(--form-footer-color);
+  border-radius: 4px;
+  outline: transparent;
+  background-color: transparent;
 }
 
 .sub-input::placeholder {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.25x;
+  line-height: 1.25;
+
   color: var(--telemail-footer-color);
+}
+
+.sub-input:not(:placeholder-shown) {
+  color: var(--primary-white-color);
 }
 
 .send-btn {
