@@ -483,7 +483,7 @@
     </main>
 
     <!-- Подвал -->
-    <footer class="footer">
+    <footer class="footer footer-container">
       <div class="container footer-item">
         <div>
           <a href="./index.html" class="footer-logo link"
@@ -546,6 +546,25 @@
             </li>
           </ul>
         </div>
+
+        <!-- Form footer -->
+
+        <form class="sub-form">
+          <div class="sub-container">
+            <label for="mail" class="sub-send">
+            Подпишитесь на рассылку
+            </label>
+            <input class="sub-input" type="email" name="email" id="mail" placeholder="E-mail"/>
+          </div>
+          <button type="submit" class="send-btn">
+            Подписаться
+            <svg class="send-icon">
+              <use href="./images/icons.svg/symbol-defs.svg#icon-form-send"></use>
+            </svg>
+            </span>
+          </button>
+        </form>
+        
       </div>
     </footer>
     <!-- Модальное окно -->
@@ -564,3 +583,6 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
+      
+          
+        
