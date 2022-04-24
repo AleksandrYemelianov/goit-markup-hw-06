@@ -941,7 +941,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
 
-  padding-left: 8px;
+  padding-left: 18px;
   
   color: var(--secondary-text-color);
 }
@@ -949,7 +949,7 @@ img {
 .form-icon-check {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 14px;
   display: flex;
   align-items: center;
 
